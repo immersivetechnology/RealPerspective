@@ -304,7 +304,6 @@ public class RealPerspective : MonoBehaviour
                 }
 				else
 				{
-					Debug.Log ("No faces detected");
                     trackingText.text = "No faces detected";
                     trackingText.color = Color.red;
                 }
